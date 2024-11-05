@@ -1,0 +1,55 @@
+.relative {
+  position: relative;
+}
+
+.before-mobile {
+  content: "";
+  position: absolute;
+  border-radius: 550px;
+  width: 1100px;
+  height: 600px;
+  z-index: -1;
+  transform: rotate(-30deg);
+}
+.before-mobile {
+  background-color: #581c87;
+  right: -100px;
+  bottom: -30px;
+}
+.after-mobile {
+  content: "";
+  position: absolute;
+  border-radius: 550px;
+  width: 1100px;
+  height: 600px;
+  z-index: -1;
+  transform: rotate(-30deg);
+}
+.after-mobile {
+  background-color: #FBBF24;
+  ;
+  left: -100px;
+  bottom: 130px;
+}
+
+.before-circle,
+.after-circle {
+  content: '';
+  position: absolute; 
+  border-radius: 50%;
+  width: 710px;
+  height: 711px; 
+  z-index: -1; 
+}
+
+.before-circle {
+  background-color: #f59e0b; 
+  top: -100px; 
+  left: -400px;
+}
+
+.after-circle {
+  background-color: #7e22ce;
+  top: 50px; 
+  right: -330px; 
+}
