@@ -12,6 +12,7 @@ export default {
       colors: {
         'span-orange': '#D97706',
         'dark-blue': '#0F172A',
+        'light-purple': ' #7E22CE',
       },
     },
   },

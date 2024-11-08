@@ -17,9 +17,9 @@ function PickTheSun() {
         </p>
       </div>
       <div className="relative flex items-center justify-center w-full px-4">
-        <img src={Desktop} alt="desktop" className="w-auto h-auto max-w-full" />
+        <img src={Desktop} alt="desktop" className="w-auto h-auto" />
         <div className="before-circle" />
-        <div className="after-circle" />
+        <div className="after-circle " />
       </div>
     </section>
   );
