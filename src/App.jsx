@@ -10,13 +10,13 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="overflow-hidden px-20">
+    <div className="px-6 overflow-hidden sm:px-20">
       <Header />
       <Hero />
       <PickTheSun />
       <Services />
       <Features />
-      <div className="-mx-20">
+      <div className="sm:-mx-20 -mx-6">
         <Quotes />
       </div>
       <div className="-mx-20">

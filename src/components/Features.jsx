@@ -4,13 +4,15 @@ import Mobile2 from '../assets/Mobile2.png';
 
 function Features() {
   return (
-    <section className="flex flex-row pt-40 items-center">
-      <div className="pr-40">
+    <section className="flex flex-col sm:flex-row pt-40 items-center text-center sm:text-left">
+      <div className="sm:pr-40">
         <div className="flex flex-col">
           <span className="text-span-orange text-xl font-medium">
             System features
           </span>
-          <h2 className="text-6xl font-extrabold pt-2">Powerful features</h2>
+          <h2 className="font-bold text-4xl sm:text-6xl sm:font-extrabold pt-2">
+            Powerful features
+          </h2>
           <p className="text-xl pt-6 pb-12">
             Pretium lectus ultrices sit tempor, sit ullamcorper volutpat et et.
             Auctor turpis semper id sit ornare maecenas lectus sed.
@@ -57,7 +59,7 @@ function Features() {
           </ul>
         </div>
       </div>
-      <div className="max-w-[400px] h-full flex justify-center relative">
+      <div className="max-w-[400px] h-full flex justify-center relative pt-20 sm:pt-0">
         <img src={Mobile2} alt="" className="w-auto h-auto" />
         <div className="after-mobile" />
       </div>

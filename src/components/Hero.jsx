@@ -5,21 +5,21 @@ import ThumbImage from '../assets/thumb1.png';
 
 function Hero() {
   return (
-    <main className="">
-      <section className="grid grid-cols-2 ">
+    <main>
+      <section className="flex flex-col  sm:grid grid-cols-2">
         <div className="flex flex-col gap-6 max-w-[650px]">
-          <h1 className="text-7xl font-extrabold mb-4">
+          <h1 className="pt-[330px] sm:pt-0 text-center sm:text-left text-4xl font-bold sm:text-7xl sm:font-extrabold mb-4">
             Get the Sun to Power Your Home
           </h1>
-          <p className="text-2xl mb-6">
+          <p className="text-lg sm:text-2xl mb-6">
             Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra
             orci dui consequat turpis scelerisque.
           </p>
-          <div>
+          <div className="mx-auto sm:mx-0">
             <Button>Request a Quote</Button>
           </div>
 
-          <div className="pt-32 text-left">
+          <div className="pt-12 sm:pt-32 text-left">
             <p className="text-gray-700 italic">
               “Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus
               viverra orci dui consequat turpis scelerisque faucibus.”
@@ -37,11 +37,11 @@ function Hero() {
             </div>
           </div>
         </div>
-        <div className="mb-4 z-0 overflow-hidden ">
+        <div className="z-0 sm:overflow-hidden ">
           <img
             src={MaskImage}
             alt="Homem parafusando teto solar"
-            className="absolute -top-5 right-0 w-[600px] h-auto"
+            className=" absolute  w-[350px] top-0 right-0 sm:w-[600px] h-auto sm:-top-5"
           />
         </div>
       </section>

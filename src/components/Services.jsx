@@ -4,24 +4,26 @@ import './Global.css';
 
 function Services() {
   return (
-    <section className="flex flex-row pt-40 items-center">
-      <div className="max-w-[400px] h-full flex justify-center relative">
-        <img src={Mobile} alt="" className=" w-auto h-auto" />
+    <section className="flex-col flex sm:flex-row pt-40 items-center">
+      <div className="max-w-[400px] h-full flex justify-center relative order-2">
+        <img src={Mobile} alt="" className="pt-20 sm:pt-0 w-auto h-auto" />
         <div className="before-mobile" />
       </div>
-      <div className="pl-40">
+      <div className="sm:pl-40 sm:order-2">
         <div className="flex flex-col">
-          <span className="text-span-orange text-xl font-medium">Services</span>
-          <h2 className="text-6xl font-extrabold pt-2">
+          <span className="text-span-orange text-xl font-medium text-center sm:text-left">
+            Services
+          </span>
+          <h2 className="font-bold text-4xl sm:text-6xl sm:font-extrabold pt-2">
             Personalized services
           </h2>
-          <p className="text-xl pt-6 pb-12">
+          <p className="text-center text-lg sm:text-left sm:text-xl pt-6 pb-12">
             Pretium lectus ultrices sit tempor, sit ullamcorper volutpat et et.
             Auctor turpis semper id sit ornare maecenas lectus sed.
           </p>
         </div>
         <div>
-          <ul className="grid grid-cols-2 gap-12 mt-10">
+          <ul className="grid grid-cols-2 gap-12 mt-10 text-center sm:text-left">
             <li>
               <h3 className="text-dark-blue text-2xl font-bold mb-4">
                 Et mauris

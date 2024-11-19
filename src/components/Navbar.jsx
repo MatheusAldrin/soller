@@ -7,7 +7,7 @@ function Navbar() {
     <nav className="flex py-6 justify-between relative z-20">
       <div className="flex items-center">
         <img src={Logo} alt="Logo Soller" className="h-9 w-20 mr-10" />
-        <ul className="hidden sm:flex space-x-6 font-roboto font-medium">
+        <ul className="hidden sm:flex space-x-6 font-roboto font-medium ">
           <li>
             <a href="#home" className="">
               Home
@@ -30,7 +30,7 @@ function Navbar() {
           </li>
         </ul>
       </div>
-      <div className="flex flex-row ml-auto">
+      <div className="flex-row ml-auto sm:flex hidden">
         <Button>Request a Quote</Button>
       </div>
     </nav>
